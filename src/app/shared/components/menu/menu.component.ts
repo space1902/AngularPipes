@@ -20,7 +20,7 @@ export class MenuComponent implements OnInit {
                     {
                       label: 'Textos y Fechas',
                       icon: 'pi pi-align-left',
-                      routerLink: ''
+                      routerLink: 'int'
                     },
                     {
                       label: 'Numeros',
@@ -39,8 +39,9 @@ export class MenuComponent implements OnInit {
                 icon: 'pi pi-cog',
                 items: [
                     {
-                      label: 'Otro elemento',
+                      label: 'Personalisados',
                       icon: 'pi pi-align-left',
+                      routerLink: 'pers'
                     }
                   ]
             }
